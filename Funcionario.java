@@ -9,4 +9,22 @@ public class Funcionario{
     this.dataDeAniversario = dataDeAniversario;
     this.cargo = cargo;
   }
+  String getNome(){
+    return this.nome;
+  }
+  void setNome(String nome){
+    this.nome = nome;
+  }
+  String getDataDeAniversario(){
+    return this.dataDeAniversario;
+  }
+  String getCpf(){
+    return this.cpf;
+  }
+  String getCargo(){
+    return this.cargo;
+  }
+  void setCargo(String cargo){
+    this.cargo = cargo;
+  }
 }
