@@ -1,3 +1,4 @@
+
 public class Empresa{
   private String endereco;
   private String cidade;
@@ -5,7 +6,6 @@ public class Empresa{
   private String email;
   private boolean matriz;
   private Funcionario gerente;
-  private Produto produto;
   Empresa(String endereco, String cidade, String telefone, String email, boolean matriz){
     this.endereco = endereco;
     this.cidade = cidade;
@@ -31,4 +31,6 @@ public class Empresa{
   void setGerente(Funcionario gerente){
     this.gerente = gerente;
   }
+
+  
 }
